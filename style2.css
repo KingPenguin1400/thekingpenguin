@@ -1,13 +1,13 @@
 @font-face{
-    src: url(PoetsenOne-Regular.ttf);
+    src: url(fonts/PoetsenOne-Regular.ttf);
     font-family: Poetsen One;
 }
 @font-face{
-    src: url(DMSerifDisplay-Regular.ttf);
+    src: url(fonts/DMSerifDisplay-Regular.ttf);
     font-family: serif-regular;
 }
 @font-face{
-    src: url(DMSerifDisplay-Italic.ttf);
+    src: url(fonts/DMSerifDisplay-Italic.ttf);
     font-family: serif-italic;
 }
 h1::first-letter{
@@ -33,7 +33,7 @@ button {
 body {
     background-color: slategray;
     font-family: "Poetsen One";
-    background-image: url("ajrmm.png");
+    background-image: url("images/ajrmm.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
