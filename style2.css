@@ -1,0 +1,51 @@
+@font-face{
+    src: url(fonts/PoetsenOne-Regular.ttf);
+    font-family: Poetsen One;
+}
+@font-face{
+    src: url(fonts/DMSerifDisplay-Regular.ttf);
+    font-family: serif-regular;
+}
+@font-face{
+    src: url(fonts/DMSerifDisplay-Italic.ttf);
+    font-family: serif-italic;
+}
+h1::first-letter{
+    font-size: 3rem;
+    font-style: italic;
+}
+h1 {
+    font-family: "serif-italic";
+    color: white;
+}
+h2{
+    color: white
+}
+label {
+    font-family: "Poetsen One";
+}
+p{
+    color: white
+}
+button {
+    font-family: "Poetsen One";
+}
+body {
+    background-color: slategray;
+    font-family: "Poetsen One";
+    background-image: url("images/ajrmm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+    text-align: center;
+}
+a {
+    color: rgb(0, 110, 255);
+}
+a:hover {
+    font-size: 1.1rem;
+    color: hsl(214, 100%, 75%);
+}
