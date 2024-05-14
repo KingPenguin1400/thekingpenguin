@@ -33,7 +33,7 @@ button {
 body {
     background-color: slategray;
     font-family: "Poetsen One";
-    background-image: url("/images/ajrmm.png");
+    background-image: url(images/ajrmm.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
