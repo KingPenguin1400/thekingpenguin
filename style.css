@@ -1,14 +1,54 @@
+header{
+    position: sticky;
+}
 @font-face{
-    src: url(/fonts/PoetsenOne-Regular.ttf);
+    src: url(fonts/PoetsenOne-Regular.ttf);
     font-family: Poetsen One;
 }
 @font-face{
-    src: url(/fonts/DMSerifDisplay-Regular.ttf);
+    src: url(fonts/DMSerifDisplay-Regular.ttf);
     font-family: serif-regular;
 }
 @font-face{
-    src: url(/fonts/DMSerifDisplay-Italic.ttf);
+    src: url(fonts/DMSerifDisplay-Italic.ttf);
     font-family: serif-italic;
+}
+h1{
+    font-family: "Poetsen One";
+}
+
+label{
+    font-family: "Poetsen One";
+}
+
+button{
+    font-family: "Poetsen One";
+}
+
+body{
+    background-image: url(images/busycity.jpg);
+    font-family: "Poetsen One";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    color: rgb(0, 110, 255);
+}
+a:hover{
+    font-size: 1.1rem;
+    color: hsl(214, 100%, 75%);
+}
+li{
+    display: inline;
+}
+#counter{
+    font-size: 10rem;
+}
+.buttons{
+    font-size: 3rem;
+    background-color: lightblue;
 }
 ::selection{
     color: rgb(47, 255, 47);
@@ -18,35 +58,22 @@ h1::first-letter{
     font-size: 3rem;
     font-style: italic;
 }
-.navagator a{
-    font-size: 1.3rem;
-    background-color: hsl(0, 0%, 75%);
-    border-radius: 4px;
-    text-decoration: none;
-    color: black;
-    margin: 7px;
-    padding: 5px;
+h1{
+    font-family: "serif-italic";
 }
-.navagator{
-    text-align: center;
-}
-.navagator a:active{
-    background-color: rgb(47, 255, 99);;
-}
-.navagator a:hover :not(:active){
-    background-color: hsl(0, 0%, 50%)
-}
-li{
-    display: inline;
+li::before{
+    content: ⚫ ;
 }
 .dropdown{
     display: inline;
+}
+.dropdown button{
+    border-radius: 6px;
 }
 .dropdown a{
     display: block;
     text-decoration: none;
     padding: 5px;
-    color: hsl(240, 100%, 50%);
 }
 .dropdown button:hover{
     cursor: pointer;
@@ -61,7 +88,9 @@ li{
 }
 .dropdown:hover .content{
     display: block;
+    border-radius: 10px;
 }
-.dropdown a:visited{
-    color: hsl(240, 100%, 50%);
+.textformats{
+    display: inline-block;
+    background-color: aliceblue;
 }
