@@ -2,15 +2,15 @@ header{
     position: sticky;
 }
 @font-face{
-    src: url(PoetsenOne-Regular.ttf);
+    src: url(fonts/PoetsenOne-Regular.ttf);
     font-family: Poetsen One;
 }
 @font-face{
-    src: url(DMSerifDisplay-Regular.ttf);
+    src: url(fonts/DMSerifDisplay-Regular.ttf);
     font-family: serif-regular;
 }
 @font-face{
-    src: url(DMSerifDisplay-Italic.ttf);
+    src: url(fonts/DMSerifDisplay-Italic.ttf);
     font-family: serif-italic;
 }
 h1{
@@ -26,7 +26,7 @@ button{
 }
 
 body{
-    background-image: url(/busycity.jpg);
+    background-image: url(images/busycity.jpg);
     font-family: "Poetsen One";
     background-repeat: no-repeat;
     background-position: center;
