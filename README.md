@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @KingPenguin1400
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning html/javascript/css
-- 💞️ I’m looking to collaborate on maybe
-- 📫 How to reach me no
+- 💞️ I’m looking to collaborate on email me
+- 📫 How to reach me adrian.gastelo@outlook.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: im kinda good at coding at a young age
 
