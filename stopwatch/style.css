@@ -1,0 +1,44 @@
+body{
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 6.5rem;
+}
+.stopwatch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4.3rem;
+    padding: 2rem;
+    background-color: slategray;
+    border: 100px solid;
+    border-radius: 50px;
+}
+.stopwatchButtons{
+    block-size: 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+button{
+    font-family: monospace;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10px;
+}
+#startBtn{
+    background-color: hsl(200, 100%, 50%);
+}
+#stopBtn{
+    background-color: yellow;
+}
+#resetBtn{
+    background-color: red;
+}
+::selection{
+    color: rgb(47, 255, 47);
+    background-color: black;
+}
