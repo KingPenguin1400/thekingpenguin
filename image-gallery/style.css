@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(fonts/Montserrat/static/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-ExtraBoldItalic;
+    src: url(fonts/Montserrat/static/Montserrat-ExtraBoldItalic.ttf);
+}
+#header{
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat-ExtraBold";
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat-ExtraBoldItalic";
+}
+img{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+::selection{
+    background-color: black;
+    color: orange;
+}

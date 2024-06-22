@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RPS</title>
+</head>
+<body>
+    <h1>ROCK, PAPER, SCISSORS</h1>
+    <div class="dropdown">
+        <button>menu</button>
+        <div class="content">
+            <a href="/index.html">Home</a>
+            <a href="/bday/">Birthday</a>
+            <a href="/ajrfanpage/">AJR Fan Page</a>
+            <a href="/textformats/">Text Formats</a>
+            <a href="/randomstuff/">Random Stuff</a>
+            <a href="/navagatepages/page1.html">Navagate Pages</a>
+            <a href="/rps/">Rock, Paper, Scissors</a>
+            <a href="/clock/">Digital Clock</a>
+            <a href="/squareInput/">Square Input</a>
+            <a href="/counter/">Counter</a>
+        </div>
+    </div>
+    <hr>
+    <div class="choices">
+        <button onclick="playGame('rock')" class="playerChoiceButton">👊</button>
+        <button onclick="playGame('paper')" class="playerChoiceButton">✋</button>
+        <button onclick="playGame('scissors')" class="playerChoiceButton">✌</button>
+    </div>
+    <div id="playerDisplay">PLAYER:</div>
+    <div id="computerDisplay">COMPUTER:</div>
+    <div id="resultDisplay"></div>
+    <h1 style="font-size: 3.5rem;">Score Board</h1>
+    <div class="scoreboard">
+        <div style="font-size: 2rem;" id="playerWinsDisplay" class="scoreboardDisplay, greenText">Player Wins: </div><br>
+        <div style="font-size: 2rem;" id="computerWinsDisplay" class="scoreboardDisplay, redText">Computer Wins: </div>
+    </div>
+    <br>
+    <button onclick="window.open( 'index.html', 'rps', 'resizable=yes,width=900,height=700');">open this in a window</button>
+    
+    <script src="index.js"></script>
+</body>
+</html>

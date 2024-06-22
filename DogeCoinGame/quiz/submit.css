@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(fonts/Montserrat-Black.ttf);
+}
+body{
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat-Black";
+}

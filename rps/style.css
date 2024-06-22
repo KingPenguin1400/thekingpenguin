@@ -1,0 +1,100 @@
+@font-face{
+    src: url(fonts/PoetsenOne-Regular.ttf);
+    font-family: Poetsen One;
+}
+@font-face{
+    src: url(fonts/DMSerifDisplay-Regular.ttf);
+    font-family: serif-regular;
+}
+@font-face{
+    src: url(fonts/DMSerifDisplay-Italic.ttf);
+    font-family: serif-italic;
+}
+h1{
+    font-family: "Poetsen One";
+    font-size: 3.6rem;
+}body{
+    font-family: monospace;
+    font-weight: bold;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    color: rgb(0, 110, 255);
+}
+a:hover{
+    font-size: 1.1rem;
+    color: hsl(214, 100%, 75%);
+}
+::selection{
+    color: rgb(47, 255, 47);
+    background-color: black;
+}
+h1::first-letter{
+    font-size: 4rem;
+    font-style: italic;
+}
+h1{
+    font-family: "serif-italic";
+}
+.choices{
+    margin-bottom: 10px;
+}
+.choices button{
+    font-size: 6rem;
+    margin: 0px 7px;
+}
+#playerDisplay{
+    font-size: 2.3rem;
+}
+#computerDisplay{
+    font-size: 2.3rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+}
+button{
+    background-color: hsl(200, 100%, 50%);
+    border-radius: 25px;
+}
+button:hover{
+    background-color: hsl(200, 100%, 70%);
+}
+.redText{
+    color: red;
+}
+.greenText{
+    color: rgb(11, 165, 11);
+}
+.scoreboardDisplay #playerWinsDisplay{
+    font-size: 20rem;
+}
+.dropdown{
+    display: inline;
+    width: fit-content;
+}
+.dropdown button{
+    border-radius: 6px;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+.dropdown button:hover{
+    cursor: pointer;
+}
+.dropdown .content{
+    display: none;
+    background-color: hsl(0, 0%, 50%);
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    box-shadow: 26px 26px 56px rgb(0, 255, 255);
+}
+.dropdown:hover .content{
+    display: block;
+    border-radius: 10px;
+}

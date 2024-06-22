@@ -1,0 +1,12 @@
+#dcDisplay{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    border: 3.4px black;
+    border-style: solid;
+    right: 0%;
+    margin-right: 5rem;
+}
+#dcDisplayImg{
+    margin-top: 1rem;
+}

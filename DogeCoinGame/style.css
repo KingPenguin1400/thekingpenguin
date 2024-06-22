@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(fonts/Montserrat-Black.ttf);
+}
+body{
+    background-image: url(images/doge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Montserrat-Black";
+}
+#dogeBtn{
+    position: absolute;
+    border-radius: 250px;
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0%;
+}
+#container1{
+    display: inline-flex;
+    flex-direction: row;
+}
